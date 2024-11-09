@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -29,16 +28,15 @@
         <activity android:name=".EditFlashcardActivity" android:exported="true" />
         <activity android:name=".FlashcardViewActivity" android:exported="true" />
         <activity android:name=".Flashcard" android:exported="true" />
-        <activity android:name=".FlashcardAdapter" android:exported="true" />
 
         <!-- Remove or modify splash screen activity if not needed -->
         <!-- If you have a SplashActivity and want to remove it, just delete or comment out this block -->
-        <!-- <activity
+        <activity
             android:name=".SplashActivity"
             android:theme="@android:style/Theme.NoDisplay"
-            android:exported="true" /> -->
+            android:exported="true" />
+
 
     </application>
 
 </manifest>
-
