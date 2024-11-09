@@ -1,6 +1,6 @@
 package com.example.flashcardproject;
 
-package com.example.flashcardproject;
+
 
 import android.content.Intent;
 import android.os.Bundle;

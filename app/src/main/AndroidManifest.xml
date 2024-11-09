@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
@@ -12,15 +13,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FlashCardProject"
         tools:targetApi="31">
+
+        <!-- HomeActivity as the main entry point of the app -->
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Other activities in your app -->
+        <activity android:name=".CreateFlashcardActivity" android:exported="true" />
+        <activity android:name=".EditFlashcardActivity" android:exported="true" />
+        <activity android:name=".FlashcardViewActivity" android:exported="true" />
+        <activity android:name=".Flashcard" android:exported="true" />
+        <activity android:name=".FlashcardAdapter" android:exported="true" />
+
+        <!-- Remove or modify splash screen activity if not needed -->
+        <!-- If you have a SplashActivity and want to remove it, just delete or comment out this block -->
+        <!-- <activity
+            android:name=".SplashActivity"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:exported="true" /> -->
+
     </application>
 
 </manifest>
+
